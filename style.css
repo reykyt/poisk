@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: rgb(141, 170, 170);
+    padding-top: 30px;
+    border-radius: 20px;
+    padding-bottom: 40px;
+}
+
+.item {
+    display: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(172, 129, 129);
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+}
+
+.search-input {
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    border: rgb(138, 135, 135) solid 3px;
+}
